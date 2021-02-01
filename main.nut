@@ -37,6 +37,7 @@ class SignIndustries extends AIController
                     }
    }
  }
+ }
 function SignIndustries::Save()
 {
 	return { x = 0 };
