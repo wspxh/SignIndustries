@@ -40,7 +40,7 @@ class SignIndustries extends AIController
  }
 function SignIndustries::Save()
 {
-	return { data=SignIndustries.signs };
+	return SignIndustries.signs;
 }
 
 function SignIndustries::Load(version, data)
