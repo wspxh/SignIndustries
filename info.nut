@@ -4,7 +4,7 @@ class SignInfo extends AIInfo {
 	function GetDescription() {
 		return "set sign on industries.";
 	}
-	function GetVersion() { return 8 }
+	function GetVersion() { return 9 }
 	function GetDate() { return "1st Feb 2021"; }
 	function CreateInstance() { return "SignIndustries"; }
 	function GetShortName() { return "SIGN"; }
