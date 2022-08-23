@@ -29,7 +29,7 @@ function SignIndustries::Start() {
                     break;
                 case AIEvent.ET_INDUSTRY_CLOSE:
                     AILog.Info("One industry closed!")
-                    local ec = AIEventSubsidyOffer.Convert(e);
+                    local ec = AIEventIndustryClose.Convert(e);
                     local industry_id = ec.GetIndustryID();
                     local sign_id = SignIndustries.signs.industry_id;
                     if (sign_id != null) AISign.RemoveSign(sign_id);
